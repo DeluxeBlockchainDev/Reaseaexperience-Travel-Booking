@@ -1,0 +1,42 @@
+.logo-div img {
+    z-index: 998 !important;
+    width: 300px;
+}
+
+.footer-logo img {
+    z-index: 998 !important;
+    width: 250px;
+}
+
+.auth .modal-dialog {
+    pointer-events: inherit !important;
+}
+
+.auth.modal-backdrop {
+    background-color: #2c323ab3 !important;
+}
+
+.auth .copy__desc a {
+    color: #ccc;
+}
+
+.auth .copy__desc a:hover {
+    color: #17a2b8;
+}
+
+@media (min-width: 576px) {
+    .auth .modal-dialog {
+        max-width: 520px;
+        margin: 1.75rem auto;
+    }
+}
+
+.goto a{
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .goto a{
+        display: inline;
+    }
+}
